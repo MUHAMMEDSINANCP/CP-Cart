@@ -67,11 +67,12 @@ class BottomCart extends StatelessWidget {
               ),
             ),
             style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all<Color>(Colors.pink),
+              backgroundColor:
+                  MaterialStateProperty.all<Color>(Colors.pink.shade200),
               shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                 RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(18.0),
-                  side: const BorderSide(color: Colors.red),
+                  side: const BorderSide(color: Colors.pinkAccent),
                 ),
               ),
               padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
@@ -138,7 +139,7 @@ class ContainerStackItem extends StatelessWidget {
                       ),
                       Text("16 OZ",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 18,
                           )),
                     ],
                   ),
@@ -153,7 +154,7 @@ class ContainerStackItem extends StatelessWidget {
                       ),
                       Text("1",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 18,
                           )),
                     ],
                   ),
